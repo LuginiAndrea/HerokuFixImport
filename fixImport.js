@@ -1,5 +1,5 @@
 import fs from "fs";
-const exceptions = ['.js'];
+const exceptions = [];
 
 function readDirectory(path, mode) {
     fs.readdir(path, (err, files) => {
